@@ -1,0 +1,20 @@
+{
+  "name": "graphql-jsonplaceholder-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@vitalets/google-translate-api": "^9.2.1",
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "graphql": "^16.14.2"
+  }
+}
