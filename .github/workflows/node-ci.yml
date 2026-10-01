@@ -10,7 +10,15 @@ on:
       - main
 
 jobs:
+  test : 
+    runs-on : ubuntu-latest
+
+    steps : 
+      - name : test
+        run : echo "testing ... "
+
   build:
+    needs : test
     runs-on: ubuntu-latest
 
     steps:
